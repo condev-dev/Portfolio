@@ -14,9 +14,13 @@ import Box3 from "../../../assets/img/box-hero-3.webp";
 import { Link } from "react-router-dom";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import resumeEn from "../../../resume/en-condev-resume.pdf";
+import resumeFa from "../../../resume/fa-condev-resume.pdf";
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t ,i18n } = useTranslation();
+
+ const currentResume = i18n.language === "fa" ? resumeFa : resumeEn;
 
   return (
     <Content>
@@ -48,7 +52,11 @@ const Hero = () => {
           />
         </div>
 
-        <Link to="/about">
+<a 
+          href={currentResume} 
+          download={i18n.language === "fa" ? "ConDev-Resume-FA.pdf" : "ConDev-Resume-EN.pdf"}
+          style={{ textDecoration: 'none' }}
+        >
           <button
             className="mt-5"
             type="button"
@@ -56,7 +64,7 @@ const Hero = () => {
           >
             {t("hero.downloadResume")}
           </button>
-        </Link>
+        </a>
 
         <div className="social-icons d-flex justify-content-center align-items-center mt-5">
           <a
