@@ -18,9 +18,9 @@ import resumeEn from "../../../resume/en-condev-resume.pdf";
 import resumeFa from "../../../resume/fa-condev-resume.pdf";
 
 const Hero = () => {
-  const { t ,i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
- const currentResume = i18n.language === "fa" ? resumeFa : resumeEn;
+  const currentResume = i18n.language === "fa" ? resumeFa : resumeEn;
 
   return (
     <Content>
@@ -52,10 +52,14 @@ const Hero = () => {
           />
         </div>
 
-<a 
-          href={currentResume} 
-          download={i18n.language === "fa" ? "ConDev-Resume-FA.pdf" : "ConDev-Resume-EN.pdf"}
-          style={{ textDecoration: 'none' }}
+        <a
+          href={currentResume}
+          download={
+            i18n.language === "fa"
+              ? "ConDev-Resume-FA.pdf"
+              : "ConDev-Resume-EN.pdf"
+          }
+          style={{ textDecoration: "none" }}
         >
           <button
             className="mt-5"
