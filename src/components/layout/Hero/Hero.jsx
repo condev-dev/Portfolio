@@ -82,7 +82,7 @@ const Hero = () => {
           </a>
           <a
             className="mx-1 mx-md-2 social-item"
-            href="https://github.com/ConDevTp"
+            href="https://github.com/condev-dev"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
