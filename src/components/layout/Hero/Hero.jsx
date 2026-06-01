@@ -11,7 +11,6 @@ import {
 import Box1 from "../../../assets/img/box-hero-1.webp";
 import Box2 from "../../../assets/img/box-hero-2.webp";
 import Box3 from "../../../assets/img/box-hero-3.webp";
-import { Link } from "react-router-dom";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import resumeEn from "../../../resume/en-condev-resume.pdf";
