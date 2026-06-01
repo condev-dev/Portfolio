@@ -29,6 +29,7 @@
     "yup": "^1.7.1"
   },
   "scripts": {
+    "preinstall": "npm config set legacy-peer-deps true",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
