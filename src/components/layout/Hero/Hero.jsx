@@ -7,6 +7,7 @@ import {
   FaLinkedinIn,
   FaYoutube,
   FaPinterestP,
+  FaTelegram,
 } from "react-icons/fa6";
 import Box1 from "../../../assets/img/box-hero-1.webp";
 import Box2 from "../../../assets/img/box-hero-2.webp";
@@ -108,12 +109,12 @@ const Hero = () => {
           </a>
           <a
             className="mx-1 mx-md-2 social-item"
-            href="https://pin.it/53DQhi58N"
+            href="https://t.me/ConDev_TP"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Pinterest"
           >
-            <FaPinterestP />
+            <FaTelegram />
           </a>
         </div>
 

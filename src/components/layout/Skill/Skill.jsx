@@ -11,7 +11,6 @@ const Skill = () => {
     { name: "HTML5", level: "professional", progress: 95 },
     { name: "CSS3", level: "professional", progress: 95 },
     { name: "JavaScript (ES6+)", level: "professional", progress: 95 },
-    { name: "TypeScript", level: "advanced", progress: 80 },
     { name: "React.js", level: "advanced", progress: 80 },
     { name: "Next.js", level: "advanced", progress: 80 },
     { name: "Redux / RTK", level: "professional", progress: 95 },

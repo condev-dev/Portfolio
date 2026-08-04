@@ -33,10 +33,10 @@ const Contact = () => {
     onSubmit: (values, { resetForm }) => {
       emailjs
         .send(
-          "service_gfvql2j",
-          "template_f7r8d8h",
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           values,
-          "jc3hw9Mqc76nyml5u"
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
         )
         .then(
           () => {
