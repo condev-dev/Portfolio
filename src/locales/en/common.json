@@ -14,7 +14,7 @@
     "typing": [
       "Front-End Developer",
       "React & Next.Js",
-      "Problem Solver",
+      "AI Developer",
       "UI/UX Lover"
     ],
     "downloadResume": "Download Resume"
@@ -158,5 +158,13 @@
   },
   "app": {
     "loading": "Loading..."
+  },
+  "chat": {
+    "title": "Con Dev AI Assistant",
+    "initialMsg": "Hi! I'm Arash's (Con Dev) AI assistant. Ask me anything about his experience, skills, or projects.",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "loading": "Typing...",
+    "error": "Something went wrong, please try again."
   }
 }

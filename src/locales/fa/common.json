@@ -14,7 +14,7 @@
     "typing": [
       "Front-End Developer",
       "React & Next.Js",
-      "Problem Solver",
+      "AI Developer",
       "UI/UX Lover"
     ],
     "downloadResume": "دانلود رزومه"
@@ -159,5 +159,13 @@
   },
   "app": {
     "loading": "در حال بارگذاری..."
+  },
+  "chat": {
+    "title": "دستیار هوشمند Con Dev",
+    "initialMsg": "سلام! من دستیار هوشمند آرش (Con Dev) هستم. هر سوالی درباره سوابق، مهارت‌ها یا پروژه‌هاش داری بپرس.",
+    "placeholder": "پیامت رو بنویس...",
+    "send": "ارسال",
+    "loading": "در حال تایپ...",
+    "error": "مشکلی پیش اومد، لطفاً دوباره امتحان کن."
   }
 }

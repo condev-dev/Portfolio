@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
+import AIChatWidget from "./components/Ai/AIChatWidget";
 
 const Header = lazy(() => import("./components/layout/Header/Header"));
 const Hero = lazy(() => import("./components/layout/Hero/Hero"));
@@ -29,6 +30,8 @@ function App() {
         <Service />
         <Contact />
         <Footer />
+        {/* Ai */}
+        <AIChatWidget />
       </>
     </Suspense>
   );
