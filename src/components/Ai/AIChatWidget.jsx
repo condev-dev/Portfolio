@@ -53,6 +53,21 @@ export default function AIChatWidget() {
     if (el) el.scrollTop = el.scrollHeight;
   }, [messages, isLoading]);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    if (!window.matchMedia("(max-width: 480px)").matches) return;
+    const html = document.documentElement;
+    const body = document.body;
+    const prevHtml = html.style.overflow;
+    const prevBody = body.style.overflow;
+    html.style.overflow = "hidden";
+    body.style.overflow = "hidden";
+    return () => {
+      html.style.overflow = prevHtml;
+      body.style.overflow = prevBody;
+    };
+  }, [isOpen]);
+
   const handleSubmit = async (e, presetText) => {
     if (e) e.preventDefault();
     const content = presetText ?? input;
@@ -224,7 +239,7 @@ export default function AIChatWidget() {
             )}
           </div>
 
-          <form onSubmit={handleSubmit} className="ai-chat-form">
+          <form onSubmit={handleSubmit} className="ai-chat-form py-3">
             <input
               type="text"
               value={input}
@@ -251,10 +266,7 @@ export default function AIChatWidget() {
             </button>
           </form>
 
-          <div className="ai-chat-footer">
-            <span>{isFa ? "طراحی‌شده توسط" : "Crafted with "}</span>
-            <span className="ai-chat-footer-brand"> Con Dev</span>
-          </div>
+     
         </div>
       )}
     </div>
