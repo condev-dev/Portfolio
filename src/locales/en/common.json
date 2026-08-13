@@ -165,6 +165,23 @@
     "placeholder": "Type your message...",
     "send": "Send",
     "loading": "Typing...",
-    "error": "Something went wrong, please try again."
+    "error": "Something went wrong, please try again.",
+    "open": "Open AI assistant",
+    "close": "Close chat",
+    "online": "Online",
+    "stop": "Stop response",
+    "stopped": "Response stopped.",
+    "copy": "Copy message",
+    "copied": "Copied",
+    "retry": "Try again",
+    "clear": "New chat",
+    "avatarAlt": "Con Dev logo",
+    "suggestionsLabel": "Suggested questions",
+    "suggestions": [
+      "What are your skills?",
+      "Tell me about your projects",
+      "What certifications do you have?",
+      "How can I contact you?"
+    ]
   }
 }
