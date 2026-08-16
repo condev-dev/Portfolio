@@ -109,7 +109,7 @@ const Hero = () => {
           </a>
           <a
             className="mx-1 mx-md-2 social-item"
-            href="https://t.me/ConDev_TP"
+            href="https://t.me/condevtp"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Pinterest"

@@ -75,3 +75,25 @@
     margin-bottom: 0 !important;
   }
 }
+
+/* New */
+
+.about-content strong {
+  position: relative;
+}
+
+.about-content strong::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffc700;
+  transition: width 0.6s ease;
+}
+
+.about-content:hover strong::after,
+.about-content.in-view strong::after {
+  width: 100%;
+}

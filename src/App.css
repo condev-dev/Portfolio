@@ -93,3 +93,19 @@ h2 {
     margin-bottom: 2.5% !important;
   }
 }
+
+/* New */
+.Toastify__toast-container {
+  z-index: 100000 !important;
+}
+.Toastify__toast-theme--colored {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+.Toastify__close-button {
+  display: none !important;
+}
+
+.Toastify--animate-icon {
+    margin-top: -5px !important;
+}

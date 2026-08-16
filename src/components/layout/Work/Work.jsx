@@ -84,7 +84,7 @@ const Work = () => {
                 <img src={Work2} alt={t("work.items.2")} />
               </a>
               <a
-                href="https://www.casinolivebet.com/en/"
+                href="https://www.condev.ir"
                 target="_blank"
                 rel="noopener noreferrer"
               >

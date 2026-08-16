@@ -118,16 +118,6 @@
   inset: -3px;
   border-radius: 24px;
   padding: 1.5px;
-  background: conic-gradient(
-    from 0deg,
-    transparent 0%,
-    rgba(255, 199, 0, 0.95) 10%,
-    rgba(255, 224, 122, 0.35) 20%,
-    transparent 34%,
-    transparent 62%,
-    rgba(255, 255, 255, 0.55) 74%,
-    transparent 88%
-  );
   -webkit-mask:
     linear-gradient(#000 0 0) content-box,
     linear-gradient(#000 0 0);
@@ -138,12 +128,20 @@
   mask-composite: exclude;
   animation: cd-ring-spin 6s linear infinite;
   pointer-events: none;
-  opacity: 0.85;
+  opacity: 1;
 }
 
 @keyframes cd-ring-spin {
-  to {
-    transform: rotate(360deg);
+  0% {
+    transform: rotate(0deg) scale(0.85);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.85);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(0.85);
   }
 }
 
@@ -205,7 +203,8 @@
 
 .ai-chat-trigger-dot {
   position: absolute;
-  top: 7px;
+  margin-left: 1px !important;
+  top: 10px;
   inset-inline-end: 7px;
   width: 8px;
   height: 8px;

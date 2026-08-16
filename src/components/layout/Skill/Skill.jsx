@@ -11,23 +11,27 @@ const Skill = () => {
     { name: "HTML5", level: "professional", progress: 95 },
     { name: "CSS3", level: "professional", progress: 95 },
     { name: "JavaScript (ES6+)", level: "professional", progress: 95 },
-    { name: "React.js", level: "advanced", progress: 80 },
-    { name: "Next.js", level: "advanced", progress: 80 },
+    { name: "React.js", level: "professional", progress: 95 },
+    { name: "Next.js", level: "professional", progress: 95 },
     { name: "Redux / RTK", level: "professional", progress: 95 },
-    { name: "Tailwind CSS", level: "advanced", progress: 80 },
-    { name: "Framer Motion", level: "professional", progress: 95 },
+    { name: "Zustand", level: "advanced", progress: 90 },
     { name: "Material-UI (MUI)", level: "professional", progress: 95 },
     { name: "Bootstrap", level: "professional", progress: 95 },
-    { name: "Sass / SCSS", level: "advanced", progress: 80 },
-    { name: "Node.js", level: "intermediate", progress: 65 },
-    { name: "RESTful APIs", level: "advanced", progress: 80 },
+    { name: "Sass / SCSS", level: "advanced", progress: 85 },
+    { name: "Framer Motion", level: "professional", progress: 95 },
+    { name: "Node.js", level: "intermediate", progress: 75 },
+    { name: "RESTful APIs", level: "professional", progress: 95 },
+    { name: "Authentication / JWT", level: "advanced", progress: 85 },
+    { name: "MongoDB", level: "advanced", progress: 85 },
+    { name: "Mongoose", level: "advanced", progress: 85 },
+    { name: "Supabase", level: "advanced", progress: 85 },
+    { name: "AI Integration", level: "advanced", progress: 90 },
+    { name: "Prompt Engineering", level: "advanced", progress: 85 },
     { name: "Git & GitHub", level: "professional", progress: 95 },
     { name: "PWA", level: "professional", progress: 95 },
     { name: "Testing (Jest, RTL)", level: "advanced", progress: 80 },
     { name: "Technical SEO", level: "professional", progress: 95 },
-    { name: "Figma", level: "professional", progress: 95 },
-    { name: "Adobe XD", level: "professional", progress: 95 },
-    { name: "C# (.NET Basics)", level: "intermediate", progress: 65 },
+    { name: "Figma / Adobe XD", level: "professional", progress: 95 },
   ];
 
   return (
@@ -48,7 +52,7 @@ const Skill = () => {
                   <span
                     className="skill-level"
                     aria-label={`${t("skills.levelLabel")}: ${t(
-                      `skills.levels.${skill.level}`
+                      `skills.levels.${skill.level}`,
                     )}`}
                   >
                     {t(`skills.levels.${skill.level}`)}

@@ -12,33 +12,34 @@
   "hero": {
     "title": "Arash Ch / Con Dev",
     "typing": [
-      "Front-End Developer",
-      "React & Next.Js",
-      "AI Developer",
-      "UI/UX Lover"
+      "Senior Front-End Developer",
+      "React & Next.js Expert",
+      "Full-Stack Capable",
+      "AI Integration Developer",
+      "UI/UX Enthusiast"
     ],
     "downloadResume": "Download Resume"
   },
   "about": {
     "title": "About Me",
     "p1": {
-      "before": "Senior Front-End Developer with over 6 years of professional experience in building modern, ",
-      "strong1": "performant",
-      "middle": " and user-centric interfaces, specialized in creating smooth and ",
-      "strong2": "intuitive",
+      "before": "Senior Front-End Developer with over 6 years of experience building modern, user-centric interfaces, with hands-on backend experience, specialized in creating ",
+      "strong1": "smooth",
+      "middle": " and ",
+      "strong2": "flawless",
       "after": " user experiences."
     },
     "p2": {
-      "before": "Holding official and recognized front-end certifications from Microsoft, Meta, and IBM. These certificates confirm my mastery of global standards and advanced web development technologies ",
+      "before": "Holding official front-end certifications from Microsoft, Meta, and IBM, confirming my grasp of global standards and modern web development practices ",
       "link": "(certificates are available in the resume)"
     },
-    "p3": "I entered the development field in 2019 and have been fully focused on front-end development since 2021. With extensive experience in challenging projects, I now build interfaces that are technically flawless and business-impactful for product growth.",
+    "p3": "I entered development in 2019 and have been fully focused on front-end since 2021. Alongside that, I have hands-on experience with backend work and building AI-powered tools.",
     "p4": {
       "before": "At the same time, through my educational brand ",
-      "after": " I produce advanced web development content and share my knowledge with the developer community."
+      "after": " I create advanced web development content and share my knowledge with the developer community."
     },
     "p5": {
-      "before": "To verify the authenticity of the certificates and view more details, you can proceed via this ",
+      "before": "To verify the certificates and see more details, you can check this ",
       "link": "link",
       "after": "."
     },
@@ -115,15 +116,15 @@
   "services": {
     "title": "My Services",
     "items": [
-      "Custom Website Development – React.js",
-      "Converting Figma & other designs to pixel-perfect code",
-      "Web Apps (Dashboard, E-commerce, etc.)",
-      "Complex Projects (SPA / PWA with Next.js & SSR)",
-      "Adding New Features",
-      "Digital Marketing & SEO",
-      "Banner & Visual Design with Figma & Adobe",
-      "Project Management & Development Teams",
-      "Network & Server Management"
+      "Advanced Web App Development (React & Next.js)",
+      "AI Integration & Prompt Engineering",
+      "Database Management & BaaS (MongoDB, Supabase)",
+      "PWA & Interactive Web Solutions (SPA/SSR)",
+      "RESTful API Integration & Authentication",
+      "Pixel-Perfect Figma to Code Conversion",
+      "Performance Optimization & Technical SEO",
+      "UI/UX Interface Design",
+      "Feature Development & System Upgrades"
     ]
   },
   "contact": {

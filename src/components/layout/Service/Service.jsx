@@ -2,15 +2,15 @@ import SectionTitle from "../../ui/SectionTitle/SectionTitle";
 import Content from "../Content/Content";
 import "./index.css";
 import {
-  FaImage,
-  FaImagePortrait,
-  FaGears,
-  FaDisease,
-  FaMedapps,
-  FaFigma,
   FaAtom,
-  FaChartColumn,
-  FaCloudMeatball,
+  FaBrain,
+  FaDatabase,
+  FaRocket,
+  FaNetworkWired,
+  FaFigma,
+  FaChartLine,
+  FaPalette,
+  FaGears,
 } from "react-icons/fa6";
 import React from "react";
 import { useTranslation } from "react-i18next";
@@ -34,42 +34,42 @@ const Service = () => {
           </article>
 
           <article className="service-item" role="listitem">
-            <FaImage className="service-icon" aria-hidden="true" />
+            <FaBrain className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.1")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaImagePortrait className="service-icon" aria-hidden="true" />
+            <FaDatabase className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.2")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaGears className="service-icon" aria-hidden="true" />
+            <FaRocket className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.3")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaDisease className="service-icon" aria-hidden="true" />
+            <FaNetworkWired className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.4")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaMedapps className="service-icon" aria-hidden="true" />
+            <FaFigma className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.5")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaFigma className="service-icon" aria-hidden="true" />
+            <FaChartLine className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.6")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaChartColumn className="service-icon" aria-hidden="true" />
+            <FaPalette className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.7")}</h5>
           </article>
 
           <article className="service-item" role="listitem">
-            <FaCloudMeatball className="service-icon" aria-hidden="true" />
+            <FaGears className="service-icon" aria-hidden="true" />
             <h5>{t("services.items.8")}</h5>
           </article>
         </div>
