@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaYoutube,
-  FaPinterestP,
   FaTelegram,
 } from "react-icons/fa6";
 import Box1 from "../../../assets/img/box-hero-1.webp";
@@ -30,9 +29,9 @@ const Hero = () => {
       >
         <h1>
           {t("hero.title").split("/")[0]}
-          <h1 className="d-none d-md-inline" style={{ color: "#ffc700" }}>
+          <span className="d-none d-md-inline" style={{ color: "#ffc700" }}>
             /
-          </h1>
+          </span>
           <br className="d-md-none" />
           {t("hero.title").split("/")[1]}
         </h1>
@@ -112,7 +111,7 @@ const Hero = () => {
             href="https://t.me/condevtp"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Pinterest"
+            aria-label="Telegram"
           >
             <FaTelegram />
           </a>

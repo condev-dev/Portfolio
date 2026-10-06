@@ -58,7 +58,7 @@ const SeoFa = () => (
         "url": "https://cv.condev.ir/",
         "sameAs": [
           "https://www.instagram.com/con.dev",
-          "https://github.com/ConDevTp",
+          "https://github.com/condev-dev",
           "https://www.linkedin.com/in/con-dev-5b43a538b"
         ],
         "alumniOf": [
