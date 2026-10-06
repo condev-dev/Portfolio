@@ -17,6 +17,7 @@ const SeoEn = () => (
     />
     <meta name="author" content="Arash - Con Dev" />
     <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://cv.condev.ir/" />
 
     {/* Open Graph */}
     <meta
@@ -27,9 +28,10 @@ const SeoEn = () => (
       property="og:description"
       content="Arash Ch - Expert in React.js, TypeScript, and Next.js with certified international certificates"
     />
-    <meta property="og:image" content="%PUBLIC_URL%/img/og-image.png" />
-    <meta property="og:url" content="https://condevtp.github.io/Portfolio/" />
+    <meta property="og:image" content="https://cv.condev.ir/img/og-image.png" />
+    <meta property="og:url" content="https://cv.condev.ir/" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Arash Ch - Con Dev" />
     <meta property="og:locale" content="en_US" />
 
     {/* Twitter */}
@@ -42,7 +44,7 @@ const SeoEn = () => (
       name="twitter:description"
       content="Expert Front-End Developer - React, TypeScript, Next.js"
     />
-    <meta name="twitter:image" content="%PUBLIC_URL%/img/og-image.png" />
+    <meta name="twitter:image" content="https://cv.condev.ir/img/og-image.png" />
 
     {/* Structured Data */}
     <script type="application/ld+json">
@@ -53,7 +55,7 @@ const SeoEn = () => (
         "name": "Arash Ch",
         "alternateName": "Con Dev",
         "jobTitle": "Senior Front-End Developer",
-        "url": "https://condevtp.github.io/Portfolio/",
+        "url": "https://cv.condev.ir/",
         "sameAs": [
           "https://www.instagram.com/con.dev",
           "https://github.com/ConDevTp",
