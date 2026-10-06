@@ -4,6 +4,7 @@ import { Navigate, useParams } from "react-router";
 import App from "./App";
 import SeoFa from "./Seo/SeoFa";
 import SeoEn from "./Seo/SeoEn";
+import applySeo from "./Seo/applySeo";
 
 const AppWrapper = () => {
   const { lng } = useParams(); // fa یا en
@@ -16,6 +17,7 @@ const AppWrapper = () => {
       document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
       document.documentElement.lang = lang;
     }
+    applySeo(lang);
   }, [lng, i18n]);
 
   const defaultLang = "fa";
