@@ -118,21 +118,21 @@ const Work = () => {
 
             <div className="keen-slider__slide">
               <a
-                href="https://condevtp.github.io/livebet14/"
+                href="https://template-8-a.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={Work7} alt={t("work.items.7")} />
               </a>
               <a
-                href="https://condevtp.github.io/livebet18/"
+                href="https://template-3-a.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={Work8} alt={t("work.items.8")} />
               </a>
               <a
-                href="https://condevtp.github.io/livebet16/"
+                href="https://template-4-a.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -144,14 +144,14 @@ const Work = () => {
           <div ref={sliderRef2} className="keen-slider keen-slider2">
             <div className="keen-slider__slide">
               <a
-                href="https://condevtp.github.io/livebet15/"
+                href="https://plinko-game-bet-stake.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={Work11} alt={t("work.items.10")} />
               </a>
               <a
-                href="https://condevtp.github.io/livebet12/"
+                href="https://template-13-a.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -168,7 +168,7 @@ const Work = () => {
 
             <div className="keen-slider__slide">
               <a
-                href="https://condevtp.github.io/livebet11/"
+                href="https://limbo-game-bet-stake.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -182,7 +182,7 @@ const Work = () => {
                 <img src={Work55} alt={t("work.items.14")} />
               </a>
               <a
-                href="https://condevtp.github.io/livebet13/"
+                href="https://template-21-a.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
