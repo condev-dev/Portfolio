@@ -29,12 +29,15 @@ const CONTENT = {
     keywords:
       "Arash, Con Dev, فرانت‌اند, React.js, TypeScript, Next.js, UI/UX, توسعه‌دهنده وب",
     author: "Arash Ch - Con Dev",
-    ogTitle: "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند",
+    ogTitle:
+      "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)",
     ogDescription:
-      "Arash - متخصص React.js، TypeScript و Next.js با مدارک معتبر بین‌المللی",
+      "Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM.",
     ogLocale: "fa_IR",
-    twitterTitle: "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند",
-    twitterDescription: "متخصص فرانت‌اند - React، TypeScript و Next.js",
+    twitterTitle:
+      "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)",
+    twitterDescription:
+      "Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM.",
   },
   en: {
     title:
@@ -44,12 +47,15 @@ const CONTENT = {
     keywords:
       "Arash, Con Dev, Front-End, React.js, TypeScript, Next.js, UI/UX, Web Developer",
     author: "Arash - Con Dev",
-    ogTitle: "Arash Ch - Con Dev | Senior Front-End Developer",
+    ogTitle:
+      "Arash - Con Dev | Senior Front-End Developer (React.js, TypeScript, Next.js)",
     ogDescription:
-      "Arash Ch - Expert in React.js, TypeScript, and Next.js with certified international certificates",
+      "Arash Ch (Con Dev) - Senior Front-End Developer with 6+ years of experience in React.js, TypeScript, Next.js, and UI/UX. Certified by Meta, Microsoft, and IBM.",
     ogLocale: "en_US",
-    twitterTitle: "Arash Ch - Con Dev | Senior Front-End Developer",
-    twitterDescription: "Expert Front-End Developer - React, TypeScript, Next.js",
+    twitterTitle:
+      "Arash - Con Dev | Senior Front-End Developer (React.js, TypeScript, Next.js)",
+    twitterDescription:
+      "Arash Ch (Con Dev) - Senior Front-End Developer with 6+ years of experience in React.js, TypeScript, Next.js, and UI/UX. Certified by Meta, Microsoft, and IBM.",
   },
 };
 

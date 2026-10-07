@@ -22,11 +22,11 @@ const SeoEn = () => (
     {/* Open Graph */}
     <meta
       property="og:title"
-      content="Arash Ch - Con Dev | Senior Front-End Developer"
+      content="Arash - Con Dev | Senior Front-End Developer (React.js, TypeScript, Next.js)"
     />
     <meta
       property="og:description"
-      content="Arash Ch - Expert in React.js, TypeScript, and Next.js with certified international certificates"
+      content="Arash Ch (Con Dev) - Senior Front-End Developer with 6+ years of experience in React.js, TypeScript, Next.js, and UI/UX. Certified by Meta, Microsoft, and IBM."
     />
     <meta property="og:image" content="https://cv.condev.ir/img/og-card.png" />
     <meta property="og:url" content="https://cv.condev.ir/" />
@@ -38,11 +38,11 @@ const SeoEn = () => (
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Arash Ch - Con Dev | Senior Front-End Developer"
+      content="Arash - Con Dev | Senior Front-End Developer (React.js, TypeScript, Next.js)"
     />
     <meta
       name="twitter:description"
-      content="Expert Front-End Developer - React, TypeScript, Next.js"
+      content="Arash Ch (Con Dev) - Senior Front-End Developer with 6+ years of experience in React.js, TypeScript, Next.js, and UI/UX. Certified by Meta, Microsoft, and IBM."
     />
     <meta name="twitter:image" content="https://cv.condev.ir/img/og-card.png" />
 
