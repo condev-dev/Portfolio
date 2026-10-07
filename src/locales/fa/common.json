@@ -178,7 +178,8 @@
     "retry": "تلاش مجدد",
     "clear": "گفتگوی جدید",
     "avatarAlt": "لوگوی Con Dev",
-    "suggestionsLabel": "سوال‌های پیشنهادی",
+    "scrollLatest": "رفتن به آخرین پیام",
+      "suggestionsLabel": "سوال‌های پیشنهادی",
     "suggestions": [
       "چه مهارت‌هایی داری؟",
       "پروژه‌های شاخصت چیه؟",

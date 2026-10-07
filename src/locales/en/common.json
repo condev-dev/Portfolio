@@ -177,7 +177,8 @@
     "retry": "Try again",
     "clear": "New chat",
     "avatarAlt": "Con Dev logo",
-    "suggestionsLabel": "Suggested questions",
+    "scrollLatest": "Jump to latest message",
+      "suggestionsLabel": "Suggested questions",
     "suggestions": [
       "What are your skills?",
       "Tell me about your projects",

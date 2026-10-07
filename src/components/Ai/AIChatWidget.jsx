@@ -381,6 +381,9 @@ export default function AIChatWidget() {
             if (last && last.role === "assistant" && !last.content.trim()) {
               return prev.slice(0, -1);
             }
+            if (last && last.role === "assistant") {
+              return [...prev.slice(0, -1), { ...last, isStopped: true }];
+            }
             return prev;
           });
         } else {
@@ -498,10 +501,7 @@ export default function AIChatWidget() {
                 <span className="ai-chat-title">{t("chat.title")}</span>
                 <span className="ai-chat-status">
                   <span className="ai-chat-status-dot" aria-hidden="true" />
-                  <span className="pt-1" >
-                  {t("chat.online")}
-
-                  </span>
+                  <span>{t("chat.online")}</span>
                 </span>
               </div>
 
@@ -592,6 +592,10 @@ export default function AIChatWidget() {
                           </button>
                         )}
 
+                        {msg.isStopped && (
+                          <span className="ai-chat-stopped-note">{t("chat.stopped")}</span>
+                        )}
+
                         {msg.isError && isLast && (
                           <button
                             type="button"
@@ -656,7 +660,7 @@ export default function AIChatWidget() {
                   setShowJump(false);
                   scrollToBottom("smooth");
                 }}
-                aria-label={t("chat.send")}
+                aria-label={t("chat.scrollLatest")}
               >
                 <svg
                   width="14"
@@ -676,7 +680,7 @@ export default function AIChatWidget() {
               </button>
             )}
 
-            <form onSubmit={handleSubmit} className="ai-chat-form ">
+            <form onSubmit={handleSubmit} className="ai-chat-form">
               <input
                 ref={inputRef}
                 type="text"

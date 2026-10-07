@@ -1755,3 +1755,11 @@
     border-color: rgba(255, 255, 255, 0.28);
   }
 }
+
+/* shown under a reply the visitor stopped */
+.ai-chat-stopped-note {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--cd-text-mute);
+  padding-inline-start: 2px;
+}
