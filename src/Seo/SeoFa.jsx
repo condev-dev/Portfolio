@@ -3,17 +3,14 @@ import { Helmet } from "react-helmet";
 const SeoFa = () => (
   <Helmet>
     <html lang="fa" dir="rtl" />
-    <title>
-      Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript,
-      Next.js)
-    </title>
+    <title>Arash Ch - Con Dev | توسعه دهنده ارشد فرانت اند</title>
     <meta
       name="description"
-      content="Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM."
+      content="توسعه دهنده ارشد فرانت اند با بیش از ۶ سال تجربه حرفه ای در React.js، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM."
     />
     <meta
       name="keywords"
-      content="Arash, Con Dev, فرانت‌اند, React.js, TypeScript, Next.js, UI/UX, توسعه‌دهنده وب"
+      content="Arash, Con Dev, فرانت اند, React.js, TypeScript, Next.js, UI/UX, توسعه دهنده وب"
     />
     <meta name="author" content="Arash Ch - Con Dev" />
     <meta name="robots" content="index, follow" />
@@ -22,11 +19,11 @@ const SeoFa = () => (
     {/* Open Graph */}
     <meta
       property="og:title"
-      content="Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند"
+      content="Arash Ch - Con Dev | توسعه دهنده ارشد فرانت اند"
     />
     <meta
       property="og:description"
-      content="آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام."
+      content="توسعه دهنده ارشد فرانت اند با بیش از شش سال تجربه حرفه ای در ساخت رابط کاربری سریع و مدرن، دارای مدارک رسمی بین المللی از متا، مایکروسافت و آی بی ام."
     />
     <meta property="og:image" content="https://cv.condev.ir/img/og-card.png" />
     <meta property="og:url" content="https://cv.condev.ir/" />
@@ -38,11 +35,11 @@ const SeoFa = () => (
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند"
+      content="Arash Ch - Con Dev | توسعه دهنده ارشد فرانت اند"
     />
     <meta
       name="twitter:description"
-      content="آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام."
+      content="توسعه دهنده ارشد فرانت اند با بیش از شش سال تجربه حرفه ای در ساخت رابط کاربری سریع و مدرن، دارای مدارک رسمی بین المللی از متا، مایکروسافت و آی بی ام."
     />
     <meta name="twitter:image" content="https://cv.condev.ir/img/og-card.png" />
 
@@ -54,7 +51,7 @@ const SeoFa = () => (
         "@type": "Person",
         "name": "Arash Ch",
         "alternateName": "Con Dev",
-        "jobTitle": "توسعه‌دهنده ارشد فرانت‌اند",
+        "jobTitle": "توسعه دهنده ارشد فرانت اند",
         "url": "https://cv.condev.ir/",
         "sameAs": [
           "https://www.instagram.com/con.dev",

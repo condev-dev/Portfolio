@@ -22,20 +22,19 @@ const TAGS = {
 
 const CONTENT = {
   fa: {
-    title:
-      "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)",
+    title: "Arash Ch - Con Dev | توسعه دهنده ارشد فرانت اند",
     description:
-      "Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM.",
+      "توسعه دهنده ارشد فرانت اند با بیش از ۶ سال تجربه حرفه ای در React.js، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM.",
     keywords:
-      "Arash, Con Dev, فرانت‌اند, React.js, TypeScript, Next.js, UI/UX, توسعه‌دهنده وب",
+      "Arash, Con Dev, فرانت اند, React.js, TypeScript, Next.js, UI/UX, توسعه دهنده وب",
     author: "Arash Ch - Con Dev",
-    ogTitle: "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند",
+    ogTitle: "Arash Ch - Con Dev | توسعه دهنده ارشد فرانت اند",
     ogDescription:
-      "آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام.",
+      "توسعه دهنده ارشد فرانت اند با بیش از شش سال تجربه حرفه ای در ساخت رابط کاربری سریع و مدرن، دارای مدارک رسمی بین المللی از متا، مایکروسافت و آی بی ام.",
     ogLocale: "fa_IR",
-    twitterTitle: "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند",
+    twitterTitle: "Arash Ch - Con Dev | توسعه دهنده ارشد فرانت اند",
     twitterDescription:
-      "آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام.",
+      "توسعه دهنده ارشد فرانت اند با بیش از شش سال تجربه حرفه ای در ساخت رابط کاربری سریع و مدرن، دارای مدارک رسمی بین المللی از متا، مایکروسافت و آی بی ام.",
   },
   en: {
     title:
