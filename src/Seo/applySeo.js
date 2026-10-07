@@ -29,15 +29,13 @@ const CONTENT = {
     keywords:
       "Arash, Con Dev, فرانت‌اند, React.js, TypeScript, Next.js, UI/UX, توسعه‌دهنده وب",
     author: "Arash Ch - Con Dev",
-    ogTitle:
-      "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)",
+    ogTitle: "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند",
     ogDescription:
-      "Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM.",
+      "آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام.",
     ogLocale: "fa_IR",
-    twitterTitle:
-      "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)",
+    twitterTitle: "Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند",
     twitterDescription:
-      "Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM.",
+      "آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام.",
   },
   en: {
     title:

@@ -22,11 +22,11 @@ const SeoFa = () => (
     {/* Open Graph */}
     <meta
       property="og:title"
-      content="Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)"
+      content="Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند"
     />
     <meta
       property="og:description"
-      content="Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM."
+      content="آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام."
     />
     <meta property="og:image" content="https://cv.condev.ir/img/og-card.png" />
     <meta property="og:url" content="https://cv.condev.ir/" />
@@ -38,11 +38,11 @@ const SeoFa = () => (
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند (React.js, TypeScript, Next.js)"
+      content="Arash Ch - Con Dev | توسعه‌دهنده ارشد فرانت‌اند"
     />
     <meta
       name="twitter:description"
-      content="Arash (Con Dev) - توسعه‌دهنده ارشد فرانت‌اند با بیش از ۶ سال تجربه حرفه‌ای در React.js، TypeScript، Next.js و UI/UX. دارای مدارک رسمی Meta، Microsoft و IBM."
+      content="آرش، توسعه‌دهنده ارشد فرانت‌اند با بیش از شش سال تجربه حرفه‌ای در ساخت رابط‌های کاربری سریع و مدرن، دارای مدارک رسمی بین‌المللی از متا، مایکروسافت و آی‌بی‌ام."
     />
     <meta name="twitter:image" content="https://cv.condev.ir/img/og-card.png" />
 
