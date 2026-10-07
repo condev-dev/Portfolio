@@ -28,7 +28,7 @@ const SeoEn = () => (
       property="og:description"
       content="Arash Ch - Expert in React.js, TypeScript, and Next.js with certified international certificates"
     />
-    <meta property="og:image" content="https://cv.condev.ir/img/og-image.png" />
+    <meta property="og:image" content="https://cv.condev.ir/img/og-image.webp" />
     <meta property="og:url" content="https://cv.condev.ir/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Arash Ch - Con Dev" />
@@ -44,7 +44,7 @@ const SeoEn = () => (
       name="twitter:description"
       content="Expert Front-End Developer - React, TypeScript, Next.js"
     />
-    <meta name="twitter:image" content="https://cv.condev.ir/img/og-image.png" />
+    <meta name="twitter:image" content="https://cv.condev.ir/img/og-image.webp" />
 
     {/* Structured Data */}
     <script type="application/ld+json">
