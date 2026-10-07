@@ -162,7 +162,7 @@
   },
   "chat": {
     "title": "Con Dev AI Assistant",
-    "initialMsg": "Hi! I'm Arash's (Con Dev) AI assistant. Ask me anything about his experience, skills, or projects.",
+    "initialMsg": "Hi! I'm Con Dev's AI assistant. Ask me anything about his experience, skills, or projects.",
     "placeholder": "Type your message...",
     "send": "Send",
     "loading": "Typing...",
